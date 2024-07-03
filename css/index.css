@@ -29,11 +29,29 @@ section p:nth-child(7) {
     color: brown;
     /* cible le dernier p de section */
 }
+
+/* sélection des éléments paires */
+section p:nth-child(even) {
+    font-weight: 800;
+}
+/* sélection des éléments impaires */
+section p:nth-child(odd) {
+    font-weight: 800;
+    font-style: italic;
+}
+/* plus on est précis dans la sélection
+plus la modification prendra le dessus
+sur la selections générale
+*/
+div {
+    background-color: blue;
+}
 /* pour styliser une seule div quand on en a plusieurs*/
 .Zone2 {
 background-color: forestgreen;
 }
 
+/* sélection de l'id avec un # */
 #Zone5 {
     color: gray;
 }
