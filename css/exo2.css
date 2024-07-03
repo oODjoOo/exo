@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(116, 116, 134);
+    font-size: 20px;
+}
+
+h3 {
+    color: chocolate;
+    font-size: 30px;
+}
+
+hr {
+   border-style: dashed;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+article ul li:nth-child(2){
+    color: salmon;
+}
+
+div :last-child {
+    color: firebrick;
+    font-style: italic;
+}
+
+.firstbalise {
+    text-decoration: underline;
+}
+
+article ul li:nth-child(odd) {
+    font-style: italic;
+    color: indigo;
+}
+
+#section1 {
+    font-style: oblique;
+    color: darkgoldenrod;
+    background-color: aqua;
+}
+
+#section2 {
+    color: darkmagenta;
+    background-color: darkviolet;
+}
+
+#section3 {
+    color: darkgreen;
+    background-color: firebrick;
+}
+
+a {
+    color: darkgoldenrod;
+    font-size: 40px;
+    font-style: italic;
+}
+
+img {
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}

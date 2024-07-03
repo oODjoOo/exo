@@ -1,0 +1,78 @@
+body {
+	background-color: blanchedalmond;
+	font-size: 25px;
+	/* taille en 25 pixels */
+}
+
+h1 {
+	text-decoration: overline;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+section p {
+	color: red;
+	/* tous les <p> à l'intérieur de la balise section
+        sont en rouge
+    */
+}
+
+section p:first-child {
+	color: blue;
+	/* cible le premier p de section */
+}
+
+section p:last-child {
+	color: green;
+	/* cible le dernier p de section */
+}
+
+/* sélection du 4ème et 7ème enfant direct
+de la balise <section>
+*/
+section p:nth-child(4),
+section p:nth-child(7) {
+	color: #f200ff;
+}
+
+/* sélection des éléments pairs */
+section p:nth-child(even) {
+	font-weight: 800;
+}
+
+/* sélection des éléments impairs */
+section p:nth-child(odd) {
+	font-weight: 900;
+	font-style: italic;
+}
+
+/* sélection de l'id avec un # */
+#zone5 {
+	color: #e66915;
+}
+
+/* plus on est précis dans la sélection
+plus la modification prendra le dessus 
+sur la selection générale
+*/
+
+/* sélection de la class avec un . */
+.zone3 {
+	background-color: brown;
+	color: azure;
+}
+
+#zone3bis {
+	border-radius: 15px;
+	width: 150px;
+}
+
+/* .zone1, .zone2 {
+
+} */
+
+div {
+	color: blue;
+	font-size: 45px;
+}
+
+/* pour styliser une seule div quand on en a plusieurs on cible avec la class */
