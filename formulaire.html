@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire en HTML</title>
+</head>
+<body>
+    <form>
+    <!-- je déclare mon formulaire avec la balise form -->
+
+        <label for="pseudo">
+            Pseudonyme
+            <input type="text" id="pseudo" name="pseudo" placeholder="Votre pseudo" required />
+        </label>
+
+        <label for="mdp">Mot de passe</label>
+        <input type="password" name="mdp" id="mdp" placeholder="Mot de passe" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Votre email" />
+
+        <label for="photo">Photo</label>
+        <input type="file" name="photo" id="photo" />
+
+        <!-- case à cocher -->
+        <label for="q1">Quelle destination de vacances choisissez-vous ?</label>
+        <input type="checkbox" name="answer01" id="q1">Tunisie</input>
+        <input type="checkbox" name="answer02" id="q1">Malaisie</input>
+        <input type="checkbox" name="answer03" id="q1">Algérie</input>
+
+        <br>
+
+        <label for="q2">Qui seront vos partenaires de voyage ?</label>
+        <input type="radio" name="answer04" id="q2">En famille</input>
+        <input type="radio" name="answer05" id="q2">entre amis</input>
+        <input type="radio" name="answer06" id="q2">Solo</input>
+
+        <br>
+
+        <label for="comments">Commentaires</label>
+        <textarea name="comments" id="comments" cols="80" rows="8"></textarea>
+
+        <input type="submit" name="submit" value="Envoyez" />
+        <input type="reset" name="cancel" value="Annuler" />
+
+    </form>
+</body>
+</html>
