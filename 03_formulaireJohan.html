@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire en HTML</title>
+</head>
+<body>
+
+    <!-- je déclare mon formulaire avec la balise form -->
+    <form>
+        <!-- Deux manières de déclarer le label -->
+        <!--  pseudo -->
+        <label for="pseudo">
+            <!-- input dans label -->
+            Pseudonyme
+            <input type="text" id="pseudo" name="pseudo" placeholder="Votre pseudo.." required />
+            <!-- 
+                            l'id combiné à for permet de lier le label à l'input
+                            type précise le type de donnée récupérée,
+                            name sera utilisé en php pour récupérer la donnée, 
+                            le placeholder contient le texte qui apparaît dans l'input
+                            required précise au navigateur que le champs est à renseigner obligatoirement
+                        -->
+        </label>
+
+        <!-- mot de passe -->
+        <label for="mdp">Mot de passe</label>
+        <!-- label au dessus de l'input -->
+        <input type="password" id="mdp" name="mdp" placeholder="Mot de passe" required />
+
+        <!-- email -->
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Votre email" />
+
+        <br>
+
+        <!-- fichier -->
+        <label for="photo">Photo</label>
+        <input type="file" id="photo" name="photo" />
+
+        <br>
+        <!-- cases à cocher checkbox-->
+        <label for="q1">Quelle destination de vacances choisissez-vous ?</label>
+        <input type="checkbox" id="q1" name="answer01">Tunisie</input>
+        <input type="checkbox" id="q1" name="answer02" checked>Malaisie</input>
+        <input type="checkbox" id="q1" name="answer03">Algérie</input>
+
+        <br>
+        <br>
+
+        <!-- cases à cocher radio-->
+        <label for="q2">Qui seront vos partenaires de voyage ?</label>
+        <input type="radio" id="q2" name="answer04">En famille</input>
+        <!-- checked = coché par défaut -->
+
+        <input type="radio" id="q2" name="answer05" checked>Entre amis</input>
+        <input type="radio" id="q2" name="answer06">Seul tout</input>
+        <!-- un seul choix avec les bouton radio on force l'utilisateur à choisir-->
+
+        <br>
+        <br>
+
+        <!-- zone de texte -->
+        <label for="comments">Commentaires</label>
+        <textarea name="comments" id="comments" cols="50" rows="8"></textarea>
+        <!-- rows=nombre de lignes - cols=nombre de colonnes/caractères -->
+
+        <!-- bouton envoi du formulaire -->
+        <input type="submit" name="submission" value="Envoyez" />
+        <!-- bouton pour vider le formulaire -->
+        <input type="reset" name="cancel" value="Annuler" />
+
+
+    </form>
+
+</body>
+</html>
