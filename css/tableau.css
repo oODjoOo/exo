@@ -1,0 +1,31 @@
+* {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+body {
+    width: 860px;
+    margin: auto;
+}
+
+table {
+    border: 4px solid #483d8b;
+    width: 90%;
+    margin-top: 25px;
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px dotted #6a5acd;
+    padding: 5px;
+    background-color: #e7c2f5;
+    width: 25%;
+}
+
+td {
+    font-size: 20px;
+    padding: 5px;
+    border: 1px dotted #6a5acd;
+    text-align: center;
+}
