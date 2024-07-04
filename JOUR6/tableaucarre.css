@@ -1,0 +1,49 @@
+header {
+    color: white;
+    text-align: center;
+    background-color: khaki;
+    height: 100px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(223, 202, 202, 0.712);
+    margin: 50px;
+}
+
+nav {
+    color: white;
+    text-align: center;
+    background-color: gray;
+}
+
+#container {
+	width: 80%;
+	margin: 0 auto;
+	border: 2px solid darkslategray;
+}
+
+.a,
+.b,
+.c,
+.d {
+	width: 50%;
+	height: 250px;
+	float: left;
+}
+
+.a {
+	background-color: burlywood;
+}
+
+.b {
+	background-color: slateblue;
+}
+
+.c {
+	background-color: darkblue;
+}
+
+.d {
+	background-color: rgb(194, 22, 57);
+}
