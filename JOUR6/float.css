@@ -1,0 +1,19 @@
+body {
+	background-color: #88597c;
+}
+
+.box {
+	height: 11vh;
+	width: 15vw;
+	background: url(siamois.jpg);
+	padding: 15px;
+	margin: 30px;
+	border: 5px double #ffffff; /*taille, style, couleur de la bordure*/
+	float: left;
+	transition-duration: 500ms;
+}
+
+.box:hover {
+	height: 25vh;
+	width: 18vw;
+}
