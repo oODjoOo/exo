@@ -1,8 +1,13 @@
-tr,
+*{
+    border-collapse: collapse;
+}
+
+
 td {
 	border: 1px solid rgb(0, 0, 0);
     width: 20px;
     height: 20px;
+    
 }
 
 .white {
@@ -10,5 +15,45 @@ td {
 }
 
 .purple {
-    background-color: purple;
+    background-color: #581846;
+}
+
+.beige {
+    background-color: rgb(240, 240, 208);
+}
+
+.darkbeige {
+    background-color: rgb(124, 124, 53);
+}
+
+.darkgreen {
+    background-color: darkgreen;
+}
+
+.green {
+    background-color: rgb(125, 207, 125);
+}
+
+.lightblue {
+    background-color: aqua;
+}
+
+.darkblue {
+    background-color: rgb(5, 5, 104);
+}
+
+.blue {
+    background-color: rgb(33, 33, 187);
+}
+
+.red {
+    background-color: red;
+}
+
+.darkred {
+    background-color: darkred;
+}
+
+.yellow {
+    background-color: yellow;
 }
