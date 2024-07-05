@@ -2,48 +2,55 @@ header {
     color: white;
     text-align: center;
     background-color: khaki;
-    height: 100px;
+    padding: 5px;
 }
 
 footer {
     text-align: center;
     background-color: rgba(223, 202, 202, 0.712);
-    margin: 50px;
+    margin: 0px;
+    padding: 8px;
 }
 
 nav {
     color: white;
     text-align: center;
     background-color: gray;
+    padding: 5px;
 }
 
 #container {
-	width: 80%;
-	margin: 0 auto;
 	border: 2px solid darkslategray;
+    padding: 5px;
+    background-color: rgb(132, 231, 231);
 }
 
-.a,
-.b,
-.c,
-.d {
-	width: 50%;
-	height: 250px;
-	float: left;
+tbody {
+    padding: 200px;
+    text-align: center;
+    border-collapse: collapse;
 }
 
-.a {
-	background-color: burlywood;
+tr,
+td {
+	border: 1px solid rgb(255, 255, 255);
+    width: 500px;
+    height: 150px;
+    border-collapse: collapse;
 }
 
-.b {
-	background-color: slateblue;
+.topleft {
+    background-color: coral;
 }
 
-.c {
-	background-color: darkblue;
+.topright {
+    background-color: rgb(96, 224, 224);
 }
 
-.d {
-	background-color: rgb(194, 22, 57);
+.botleft {
+    background-color: rgb(61, 89, 247);
+}
+
+.botright {
+    background-color: rgb(231, 228, 52);
 }
