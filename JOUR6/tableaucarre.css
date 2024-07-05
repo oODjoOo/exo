@@ -7,6 +7,7 @@ header {
 
 footer {
     text-align: center;
+    color: white;
     background-color: rgba(223, 202, 202, 0.712);
     margin: 0px;
     padding: 8px;
@@ -16,27 +17,29 @@ nav {
     color: white;
     text-align: center;
     background-color: gray;
-    padding: 5px;
+    padding: 3px;
 }
 
 #container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
 	border: 2px solid darkslategray;
-    padding: 5px;
+    padding: 2px;
     background-color: rgb(132, 231, 231);
 }
 
 tbody {
+    color: white;
     padding: 200px;
     text-align: center;
-    border-collapse: collapse;
 }
 
 tr,
 td {
-	border: 1px solid rgb(255, 255, 255);
+	border: 3px solid rgb(255, 255, 255);
     width: 500px;
     height: 150px;
-    border-collapse: collapse;
 }
 
 .topleft {
@@ -53,4 +56,9 @@ td {
 
 .botright {
     background-color: rgb(231, 228, 52);
+}
+
+table {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
