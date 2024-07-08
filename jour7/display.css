@@ -1,0 +1,18 @@
+h1, h2, div, a, p, span, section {
+    border: 1px solid purple;
+    background-color: #64aad8;
+    text-align: center;
+}
+
+.block {
+    display: block;
+}
+
+.disappear {
+    /* disparition de l'élément dans le flux de la page */
+    display: none;
+}
+
+.inline {
+    display: inline;
+}

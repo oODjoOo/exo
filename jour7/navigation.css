@@ -1,0 +1,35 @@
+* {
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    background-color: #af0505;
+    color: bisque;
+    padding: 15px 0;
+
+}
+
+nav {
+    background-color: gray;
+    padding: 15px;
+    display: flex;
+    /* justify-conten, align-items... ne sont utilisables qu'avec le display flex (notions flexbox)*/
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid #af0505;
+    background-color: #af0505;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+/* style différent au survol de la souris */
+a:hover {
+    background-color: azure;
+    color: #af0505;
+}
