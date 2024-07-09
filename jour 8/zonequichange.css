@@ -1,0 +1,24 @@
+.zone {
+	background: red;
+	color: white;
+	padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+	.zone {
+		background: orange;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.zone {
+		background: blue;
+		color: rgb(78, 255, 178);
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.zone {
+		background: green;
+	}
+}
