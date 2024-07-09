@@ -14,7 +14,7 @@ nav {
     background-color: gray;
     padding: 15px;
     display: flex;
-    /* justify-conten, align-items... ne sont utilisables qu'avec le display flex (notions flexbox)*/
+    /* justify-content, align-items... ne sont utilisables qu'avec le display flex (notions flexbox)*/
     justify-content: space-around;
 }
 
