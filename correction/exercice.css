@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	font-family: "Lucida Sans", "Lucida Sans Regular";
+}
+
+.col-3 {
+	width: 25%;
+}
+
+.col-6 {
+	width: 50%;
+}
+
+header {
+	background-color: #9933cc;
+	padding: 20px;
+}
+
+.zone_1 {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	padding: 0 25px;
+}
+
+.navbar ul {
+	list-style-type: none;
+}
+
+.navbar li {
+	padding: 8px;
+	margin-bottom: 7px;
+	background-color: #33b5e5;
+	color: #ffffff;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.center {
+	padding: 20px;
+}
+
+.center h1 {
+	padding: 15px;
+}
+
+.aside {
+	background-color: #33b5e5;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	padding: 25px;
+}
+
+.zone_2 {
+	display: flex;
+	margin-top: 30px;
+	flex-wrap: wrap;
+}
+
+img {
+	width: 100%;
+}
+
+[class*="col-"] {
+	/*on va selectionner toutes les classes qui ont un prefixe col-*/
+	padding: 15px;
+}
+
+footer {
+	padding: 25px;
+	background-color: #33b5e5;
+	color: #fff;
+}
+/***************partie mobile*****************/
+@media screen and (max-width: 768px) {
+	/*Là, je travaille sur les ecrans moins de 768px*/
+	header {
+		background-color: red;
+	}
+
+	.zone_1 {
+		flex-wrap: wrap; /* ici on peut utiliser aussi display:block*/
+	}
+
+	.col-3 {
+		width: 100%;
+	}
+
+	.col-6 {
+		width: 100%;
+	}
+
+	.img {
+		width: 50%;
+	}
+}
