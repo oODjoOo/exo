@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+.b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(175, 28, 233, 0.671);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  img {
+    width: 100% ;
+  }
+
+  .p-2 {
+    padding: 1.5rem !important;
+}
+
+  @media (max-width: 768px) {
+    .b-example-divider{
+        background-color: red;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    .d-flex.mb-3 {
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+}
