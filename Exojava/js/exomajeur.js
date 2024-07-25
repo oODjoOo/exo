@@ -6,4 +6,3 @@ if (user >= 18) {
     alert(user = "ça dégage");
     window.location.href="https://www.toysrus.fr/";
 }
-

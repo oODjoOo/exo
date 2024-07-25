@@ -27,4 +27,5 @@
         }
     } else {
         alert("Échec de l'authentification. Veuillez vérifier votre prénom.");
+        window.location.href="https://www.toysrus.fr/";
     }
